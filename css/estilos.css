@@ -1,0 +1,114 @@
+body {
+    width: 100%;
+}
+
+.nav-link{
+    color: gray;
+}
+.nav-link:hover{
+    color: white;
+}
+
+.navbar-brand{
+    color: white;
+}
+.navbar-brand:hover{
+    color: white;
+}
+
+#comprar-tickets{
+    color: green;
+}
+
+#img-conf{
+    position: absolute;
+}
+
+#conferencia{
+    background-color: rgba(0, 0, 0, 0.3);
+position: relative;
+height: 750px;
+color: white;
+text-align: right;
+align-items: center;
+padding-bottom: 50px;
+}
+
+.conf-h1{
+    padding-top: 250px;
+    font-size: 60px;
+}
+.conf-p{
+    font-size: 20px;
+    font-weight: normal;
+}
+
+#oradores{
+    margin-top: 20px;
+}
+.oradores-p{
+    text-align: center;
+
+    margin-bottom: 0px;
+}
+.oradores-h2{
+    text-align: center;
+    margin: 5px;
+}
+.link-oradores{
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 2px 5px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.javascript {
+    background-color:orange;
+    color: black;
+}
+.react{
+    background-color:dodgerblue;
+    color: white;
+}
+.negocios{
+    background-color: gray;
+    color: white;
+}
+.startups{
+    background-color: brown;
+    color: white;
+}
+
+.row{
+    padding: 0px;
+    margin: 0px;
+}
+.col{
+    padding: 0px;
+    margin: 0px;
+}
+.mes{
+    background-color: dimgray;
+    padding: 20px;
+    margin: 0px;
+    color: white;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(70deg, rgba(20,50,70,255), rgba(30,80,120,255));
+    text-align: center;
+    color: white;
+    align-items: center;
+    padding: 20px 100px;
+    justify-content: space-between;
+    
+}
+footer a {
+    text-decoration: none;
+    color: white;
+    padding: 0 20px;
+}
+
