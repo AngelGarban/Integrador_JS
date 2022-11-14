@@ -1,114 +1,255 @@
-body {
-    width: 100%;
+/* ESTILOS DE APLICACION GENERAL*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.nav-link{
+body, html {
+    height: 100%;
+}
+
+/* ESTILOS EN INDEX.HTML */
+
+/* HEADER INDEX.HTML*/
+/* NAVBAR */
+
+.navbar-brand img { 
+    height: 45PX; }
+
+.nav-link {
     color: gray;
 }
-.nav-link:hover{
+
+.nav-link:hover {
     color: white;
 }
 
-.navbar-brand{
-    color: white;
-}
-.navbar-brand:hover{
+.navbar-brand {
     color: white;
 }
 
-#comprar-tickets{
-    color: green;
+.navbar-brand:hover {
+    color: white;
 }
 
-#img-conf{
-    position: absolute;
+#comprar-tickets {
+    color:forestgreen;
 }
 
-#conferencia{
-    background-color: rgba(0, 0, 0, 0.3);
-position: relative;
-height: 750px;
-color: white;
-text-align: right;
-align-items: center;
-padding-bottom: 50px;
+#comprar-tickets:hover {
+    color:darkgreen;
 }
 
-.conf-h1{
-    padding-top: 250px;
-    font-size: 60px;
-}
-.conf-p{
-    font-size: 20px;
-    font-weight: normal;
+/* CONFERENCIA CARRUSEL */
+
+.bg1{
+    background-image: url(/img/ba1.jpg);
+    background-color: rgb(50, 50, 50);
+    background-blend-mode: soft-light;
+    background-size: cover;
 }
 
-#oradores{
+.bg2{
+    background-image: url(/img/ba2.jpg);
+    background-color: rgb(50, 50, 50);
+    background-blend-mode: soft-light;
+    background-size: cover;
+}
+
+.bg3{
+    background-image: url(/img/ba3.jpg);
+    background-color: rgb(50, 50, 50);
+    background-blend-mode: soft-light;
+    background-size: cover;
+}
+
+.carousel-item {
+    min-height: 99vh;
+}
+
+.conf-h1 {
+    padding-top: 20%;
+    font-size: 2.5rem;
+    
+    
+}
+
+.conf-p {
+    font-size: 1.1rem;
+    
+    
+}
+
+.conferencia1 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/img/ba1.jpg);
+    
+    background-size: cover;
+    background-position: center;
+    
+}
+
+
+
+
+
+/* ORADORES */
+#oradores {
     margin-top: 20px;
 }
-.oradores-p{
+
+.oradores-p {
     text-align: center;
 
     margin-bottom: 0px;
 }
-.oradores-h2{
+
+.titulo-seccion {
     text-align: center;
     margin: 5px;
 }
-.link-oradores{
+
+.link-oradores {
     text-decoration: none;
     border-radius: 5px;
     padding: 2px 5px;
     font-weight: bold;
     font-size: 14px;
 }
+
 .javascript {
-    background-color:orange;
+    background-color: orange;
     color: black;
 }
-.react{
-    background-color:dodgerblue;
+
+.react {
+    background-color: dodgerblue;
     color: white;
 }
-.negocios{
+
+.negocios {
     background-color: gray;
     color: white;
 }
-.startups{
+
+.startups {
     background-color: brown;
     color: white;
 }
 
-.row{
-    padding: 0px;
-    margin: 0px;
+/* LUGAR Y FECHA */
+#lugar{
+    background-color: dimgray;
+    margin-top: 20px;
 }
-.col{
-    padding: 0px;
-    margin: 0px;
-}
-.mes{
+
+
+.mes {
     background-color: dimgray;
     padding: 20px;
     margin: 0px;
     color: white;
 }
 
+/* SER ORADOR */
+#serOrador{
+    padding-top: 20px;
+}
+
+/* FOOTER */
 footer {
     width: 100%;
     display: flex;
     flex-direction: row;
-    background: linear-gradient(70deg, rgba(20,50,70,255), rgba(30,80,120,255));
+    background: linear-gradient(70deg, rgba(20, 50, 70, 255), rgba(30, 80, 120, 255));
     text-align: center;
     color: white;
     align-items: center;
     padding: 20px 100px;
     justify-content: space-between;
-    
+
 }
+
 footer a {
     text-decoration: none;
     color: white;
     padding: 0 20px;
 }
+
+/* Pagina comprar
+--------------------------------------------------------------------------------
+*/
+
+#descripcionCategoria{
+    margin-top: 80px;
+}
+.card-body>p{
+    margin-bottom: 0;
+    
+}
+
+.porcentaje__descuento{
+    font-size: 2rem;
+    font-weight:500;
+    padding: 0%;
+    margin: 0%;
+}
+
+.descuento{
+    font-weight: bold;
+}
+
+.opaco{
+    color: darkgray;
+}
+
+.list-group-item{
+    margin:5px;
+
+}
+
+.cuadro-descripcion{
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    padding: 20px;
+    text-align: center;
+    margin: 2px;
+}
+
+.descripcion-categoria{
+    /* border-color: black;
+    border-style: solid;
+    border-width: 1px; */
+    display: inline-flex;
+}
+.descripcion-estudiante{
+    background-color:darkcyan;
+}
+
+.datos-comprador{
+    display: inline-flex;
+}
+
+.form-control{
+    width: 100%;
+}
+.form-control input{
+    margin-bottom: 5px;
+}
+
+/* DEL OTRO CSS */
+/* CAROUSEL
+-------------------------------------------------- */
+
+
+
+
+
+
 
