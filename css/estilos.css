@@ -223,9 +223,7 @@ footer a {
 }
 
 .descripcion-categoria{
-    /* border-color: black;
-    border-style: solid;
-    border-width: 1px; */
+    
     display: inline-flex;
 }
 .descripcion-estudiante{
@@ -242,11 +240,6 @@ footer a {
 .form-control input{
     margin-bottom: 5px;
 }
-
-/* DEL OTRO CSS */
-/* CAROUSEL
--------------------------------------------------- */
-
 
 
 
