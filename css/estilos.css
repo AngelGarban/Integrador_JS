@@ -81,18 +81,7 @@ body, html {
     
 }
 
-.conferencia1 {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-image: url(/img/ba1.jpg);
-    
-    background-size: cover;
-    background-position: center;
-    
-}
+
 
 
 
