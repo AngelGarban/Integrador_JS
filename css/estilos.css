@@ -45,21 +45,21 @@ body, html {
 
 .bg1{
     background-image: url(/img/ba1.jpg);
-    background-color: rgb(50, 50, 50);
+    background-color: rgba(50, 50, 50,0.5);
     background-blend-mode: soft-light;
     background-size: cover;
 }
 
 .bg2{
     background-image: url(/img/ba2.jpg);
-    background-color: rgb(50, 50, 50);
+    background-color: rgba(50, 50, 50, 0.5);
     background-blend-mode: soft-light;
     background-size: cover;
 }
 
 .bg3{
     background-image: url(/img/ba3.jpg);
-    background-color: rgb(50, 50, 50);
+    background-color: rgba(50, 50, 50, 0.5);
     background-blend-mode: soft-light;
     background-size: cover;
 }
